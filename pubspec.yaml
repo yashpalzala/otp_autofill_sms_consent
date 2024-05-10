@@ -1,0 +1,24 @@
+name: otp_autofill_sms_consent
+description: "Updated Flutter plugin to extract OTP from SMS for verification using the SMS User Consent API in Android."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.yashpalz.otp_autofill_sms_consent
+        pluginClass: OtpAutofillSmsConsentPlugin
